@@ -1,0 +1,61 @@
+name: receipt_management_flutter
+description: "Professional e-commerce receipt management app with offline-first architecture."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  get: ^4.7.3
+
+  # Local Storage (Offline-First)
+  hive_ce: ^2.19.3
+  hive_ce_flutter: ^2.3.4
+
+  # Firebase (BoM v4.19.0 compatible)
+  firebase_core: ^4.14.0
+  cloud_firestore: ^6.4.1
+  firebase_auth: ^6.6.0
+
+  # Networking & Connectivity
+  connectivity_plus: ^7.1.1
+
+  # PDF Generation & Sharing
+  pdf: ^3.13.0
+  printing: ^5.14.2
+  share_plus: ^13.1.0
+
+  # UI & Design
+  google_fonts: ^8.1.0
+  flutter_screenutil: ^5.9.3
+  shimmer: ^4.0.0
+  flutter_slidable: ^4.0.3
+  flutter_svg: ^2.0.17
+
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.20.1
+  path_provider: ^2.1.5
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  hive_ce_generator: ^1.11.3
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
